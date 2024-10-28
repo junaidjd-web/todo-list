@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap');
+body{
+    background-color: aqua;
+    font-family: "Rubik Wet Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: white;
+    margin-left: 33%;
+    margin-top: 5px;
+}
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px soild rgb(255, 132, 0);
+    outline: none;
+    font-size: 19px;
+    
+}
+button{
+
+    width: 60px;
+    height: 41px;
+    background-color: rgb(4, 29,29);
+    color: white;
+    border-radius: 2px;
+    font-family: 19px;
+}
+.text ul{
+    position: relative;
+    background-color: rgb(7, 67, 67);
+    color: white;
+    font-size: 19px;
+    text-align: left;
+
+}
+.text ul svg{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    padding: 3px;
+    filter: invert(1);
+
+
+}
